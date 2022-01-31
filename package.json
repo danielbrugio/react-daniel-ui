@@ -1,17 +1,20 @@
 {
   "name": "react-daniel-ui",
   "version": "1.0.0",
-  "description": "",
+  "description": "A react component library",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "author": "",
+  "author": "Daniel Brugioni",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
     "@storybook/addon-actions": "^6.4.16",
     "@storybook/addon-essentials": "^6.4.16",
     "@storybook/addon-links": "^6.4.16",
@@ -20,6 +23,16 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "styled-components": "^5.3.3",
-    "themeprovider-storybook": "^1.8.0"
+    "themeprovider-storybook": "^1.8.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^17.0.0",
+    "styled-components": "^5.2.0"
   }
 }

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Autocomplete } from './'
 import { top100Films } from '../common/mockdata'
 
