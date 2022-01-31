@@ -1,4 +1,4 @@
-import { Autocomplete } from './'
+import { Autocomplete } from './Autocomplete'
 import { top100Films } from '../common/mockdata'
 
 export default {

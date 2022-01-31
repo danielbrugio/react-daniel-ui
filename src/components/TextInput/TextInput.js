@@ -1,3 +1,4 @@
+import React from 'react';
 import { StyledTextInput } from './StyledTextInput'
 import PropTypes from 'prop-types'
 
