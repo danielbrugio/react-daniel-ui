@@ -1,6 +1,6 @@
 {
   "name": "react-daniel-ui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A react component library",
   "main": "build/index.js",
   "scripts": {
@@ -19,6 +19,7 @@
     "@storybook/addon-essentials": "^6.4.16",
     "@storybook/addon-links": "^6.4.16",
     "@storybook/react": "^6.4.16",
+    "@testing-library/react": "^12.1.2",
     "babel-loader": "^8.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -29,7 +30,6 @@
     "webpack-cli": "^4.9.2",
     "webpack-node-externals": "^3.0.0"
   },
-  "dependencies": {},
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
