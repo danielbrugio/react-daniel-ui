@@ -4,15 +4,6 @@ import { mountain } from '../src/themes'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
-  /* backgrounds: {
-    default: 'NeonUI',
-    values: [
-      {
-        name: 'NeonUI',
-        value: '#04001A'
-      }
-    ]
-  } */
 }
 
 const themes = [

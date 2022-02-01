@@ -20,7 +20,7 @@ export const sea = {
     }
   },
   fontFamily: {
-    url: 'https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap',
-    name: 'supermercado'
+    url: 'https://fonts.googleapis.com/css2?family=Lobster&display=swap',
+    name: 'lobster'
   }
 }

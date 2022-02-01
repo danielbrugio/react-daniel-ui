@@ -20,7 +20,7 @@ export const mountain = {
     }
   },
   fontFamily: {
-    url: 'https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap',
-    name: 'neonderthaw'
+    url: 'https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap',
+    name: 'synetactile'
   }
 }
