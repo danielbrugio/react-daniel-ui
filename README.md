@@ -49,17 +49,17 @@ export default App
 
 ## Theme Support
 
-We have two default themes "" and "" but you can use your custom theme through an javascript object
+We have two default themes "sea" and "mountain" but you can use your custom theme through an javascript object
 
 ```jsx
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 import { Button } from 'react-daniel-ui'
-import { cyberpunk } from 'react-daniel-ui'
+import { mountain } from 'react-daniel-ui'
 
 const App = () => (
   <div>
-    <ThemeProvider theme={cyberpunk}>
+    <ThemeProvider theme={mountain}>
       <Button>Click Here</Button>
     </ThemeProvider>
   </div>

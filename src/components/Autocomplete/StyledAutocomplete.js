@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 import { fontSizes, fonts } from '../common'
-import { neon } from '../../themes'
+import { sea } from '../../themes'
 
 const SelectCss = css`
   color: ${({ theme, variant }) => theme.textcolor[variant].on};
@@ -38,9 +38,9 @@ export const StyledAutocomplete = styled.div`
 `
 
 OptionAutocomplete.defaultProps = {
-  theme: neon
+  theme: sea
 }
 
 StyledAutocomplete.defaultProps = {
-  theme: neon
+  theme: sea
 }
