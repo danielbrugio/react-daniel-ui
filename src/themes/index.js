@@ -1,2 +1,2 @@
-export { neon } from './neon'
-export { cyberpunk } from './cyberpunk'
+export { sea } from './sea'
+export { mountain } from './mountain'

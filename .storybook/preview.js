@@ -1,6 +1,6 @@
 import { withThemesProvider } from 'themeprovider-storybook'
-import { neon } from '../src/themes'
-import { cyberpunk } from '../src/themes'
+import { sea } from '../src/themes'
+import { mountain } from '../src/themes'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -17,12 +17,12 @@ export const parameters = {
 
 const themes = [
   {
-    ...neon,
-    name: 'Neon'
+    ...sea,
+    name: 'Sea'
   },
   {
-    ...cyberpunk,
-    name: 'Cyberpunk'
+    ...mountain,
+    name: 'Mountain'
   }
 ]
 

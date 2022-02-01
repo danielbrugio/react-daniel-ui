@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { fontSizes, borderSizes, fonts } from '../common'
-import { neon } from '../../themes'
+import { sea } from '../../themes'
 
 export const StyledTextInput = styled.input`
   ${fonts}
@@ -30,5 +30,5 @@ export const StyledTextInput = styled.input`
 `
 
 StyledTextInput.defaultProps = {
-  theme: neon
+  theme: sea
 }

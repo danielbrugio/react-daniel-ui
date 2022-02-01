@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 import { boxSizes, fontSizes, borderSizes, fonts } from '../common'
-import { neon } from '../../themes'
+import { sea } from '../../themes'
 
 const hover = css`
   color: ${({ theme, variant }) => theme.textcolor[variant].on};
@@ -37,5 +37,5 @@ export const StyledButton = styled.button`
 `
 
 StyledButton.defaultProps = {
-  theme: neon
+  theme: sea
 }

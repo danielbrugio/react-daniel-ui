@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { fontSizes, borderSizes, fonts } from '../common'
-import { neon } from '../../themes'
+import { sea } from '../../themes'
 
 export const StyledNumberInput = styled.input`
   ${fonts}
@@ -38,5 +38,5 @@ export const StyledNumberInput = styled.input`
 `
 
 StyledNumberInput.defaultProps = {
-  theme: neon
+  theme: sea
 }

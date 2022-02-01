@@ -19,6 +19,6 @@ export const borderSizes = {
 }
 
 export const fonts = css`
-  @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 `

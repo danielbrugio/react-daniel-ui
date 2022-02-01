@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { fontSizes, borderSizes, fonts, boxSizes } from '../common'
-import { neon } from '../../themes'
+import { sea } from '../../themes'
 
 export const ButtonSelect = styled.button`
   ${fonts}
@@ -37,13 +37,13 @@ export const StyledSelect = styled.div`
 `
 
 StyledSelect.defaultProps = {
-  theme: neon
+  theme: sea
 }
 
 ButtonSelect.defaultProps = {
-  theme: neon
+  theme: sea
 }
 
 ContentSelect.defaultProps = {
-  theme: neon
+  theme: sea
 }
