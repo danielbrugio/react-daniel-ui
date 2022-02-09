@@ -27,7 +27,7 @@ For Yarn users:
 
 [Documentation click here]()
 
-[Github Repository]("https://github.com/danielbrugio/react-daniel-ui.git")
+[Github Repository](https://github.com/danielbrugio/react-daniel-ui.git)
 
 [Demo Repository](https://github.com/danielbrugio/demo-daniel-ui.git)
 
