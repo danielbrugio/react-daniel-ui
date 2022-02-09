@@ -1,6 +1,6 @@
-import styled from 'styled-components'
-import { fontSizes, borderSizes, fonts, boxSizes } from '../common'
-import { sea } from '../../themes'
+import styled from "styled-components";
+import { fontSizes, borderSizes, fonts, boxSizes } from "../common";
+import { sea } from "../../themes";
 
 export const ButtonSelect = styled.button`
   ${fonts}
@@ -14,18 +14,12 @@ export const ButtonSelect = styled.button`
   min-width: 160px;
   background-color: transparent;
   transition: 500ms;
-  &:hover {
-    text-shadow: ${({ theme, variant }) =>
-      `0px 0px 8px ${theme.textcolor[variant].blur}`};
-    box-shadow: ${({ theme, variant }) =>
-      `0px 0px 31px 0px ${theme.bordercolor[variant].blur}`};
-  }
-`
+`;
 
 export const ContentSelect = styled.div`
   border-top: none;
   display: none;
-`
+`;
 
 export const StyledSelect = styled.div`
   position: relative;
@@ -34,16 +28,16 @@ export const StyledSelect = styled.div`
     display: flex;
     flex-direction: column;
   }
-`
+`;
 
 StyledSelect.defaultProps = {
   theme: sea
-}
+};
 
 ButtonSelect.defaultProps = {
   theme: sea
-}
+};
 
 ContentSelect.defaultProps = {
   theme: sea
-}
+};

@@ -1,16 +1,12 @@
-import styled, { css } from 'styled-components'
-import { boxSizes, fontSizes, borderSizes, fonts } from '../common'
-import { sea } from '../../themes'
+import styled, { css } from "styled-components";
+import { boxSizes, fontSizes, borderSizes, fonts } from "../common";
+import { sea } from "../../themes";
 
 const hover = css`
   color: ${({ theme, variant }) => theme.textcolor[variant].on};
   border: ${({ size, theme, variant }) =>
     `${borderSizes[size]} solid ${theme.bordercolor[variant].on}`};
-  text-shadow: ${({ theme, variant }) =>
-    `0px 0px 8px ${theme.textcolor[variant].blur}`};
-  box-shadow: ${({ theme, variant }) =>
-    `0px 0px 31px 0px ${theme.bordercolor[variant].blur}`};
-`
+`;
 
 export const StyledButton = styled.button`
   ${fonts}
@@ -34,8 +30,8 @@ export const StyledButton = styled.button`
   &:hover {
     ${({ isDisabled }) => !isDisabled && hover}
   }
-`
+`;
 
 StyledButton.defaultProps = {
   theme: sea
-}
+};

@@ -1,14 +1,10 @@
-import styled, { css } from 'styled-components'
-import { fontSizes, fonts } from '../common'
-import { sea } from '../../themes'
+import styled, { css } from "styled-components";
+import { fontSizes, fonts } from "../common";
+import { sea } from "../../themes";
 
 const SelectCss = css`
   color: ${({ theme, variant }) => theme.textcolor[variant].on};
-  text-shadow: ${({ theme, variant }) =>
-    `0px 0px 8px ${theme.textcolor[variant].blur}`};
-  box-shadow: ${({ theme, variant }) =>
-    `0px 0px 31px 0px ${theme.bordercolor[variant].blur}`};
-`
+`;
 
 export const OptionAutocomplete = styled.div`
   ${fonts}
@@ -23,24 +19,20 @@ export const OptionAutocomplete = styled.div`
   ${({ select }) => (select ? SelectCss : null)}
   &:hover {
     color: ${({ theme, variant }) => theme.textcolor[variant].on};
-    text-shadow: ${({ theme, variant }) =>
-      `0px 0px 8px ${theme.textcolor[variant].blur}`};
-    box-shadow: ${({ theme, variant }) =>
-      `0px 0px 31px 0px ${theme.bordercolor[variant].blur}`};
   }
-`
+`;
 
 export const StyledAutocomplete = styled.div`
   ${fonts}
   width: 200px;
   display: flex;
   flex-direction: column;
-`
+`;
 
 OptionAutocomplete.defaultProps = {
   theme: sea
-}
+};
 
 StyledAutocomplete.defaultProps = {
   theme: sea
-}
+};

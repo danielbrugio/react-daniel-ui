@@ -9,7 +9,6 @@
   <img alt="NPM version" src="" />
 </p>
 
-
 ## Install
 
 For npm users:
@@ -28,34 +27,34 @@ For Yarn users:
 
 [Documentation click here]()
 
-[Github Repository]()
+[Github Repository](https://github.com/danielbrugio/react-daniel-ui.git)
 
-[Demo Repository]()
+[Demo Repository](https://github.com/danielbrugio/demo-daniel-ui.git)
 
 ## Example
 
 ```jsx
-import React from 'react'
-import { Button } from 'react-daniel-ui'
+import React from "react";
+import { Button } from "react-daniel-ui";
 
 const App = () => (
   <div>
     <Button>Click Here</Button>
   </div>
-)
+);
 
-export default App
+export default App;
 ```
 
 ## Theme Support
 
-We have two default themes "sea" and "mountain" but you can use your custom theme through an javascript object
+We have two default themes "sea" and "mountain" but you can use your custom theme through a javascript object
 
 ```jsx
-import React from 'react'
-import { ThemeProvider } from 'styled-components'
-import { Button } from 'react-daniel-ui'
-import { mountain } from 'react-daniel-ui'
+import React from "react";
+import { ThemeProvider } from "styled-components";
+import { Button } from "react-daniel-ui";
+import { mountain } from "react-daniel-ui";
 
 const App = () => (
   <div>
@@ -63,9 +62,9 @@ const App = () => (
       <Button>Click Here</Button>
     </ThemeProvider>
   </div>
-)
+);
 
-export default App
+export default App;
 ```
 
 ## Explore with storybook
