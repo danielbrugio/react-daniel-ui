@@ -14,7 +14,7 @@ For Yarn users:
   $ yarn add react-daniel-ui styled-components
 ```
 
-## Links
+## Links 
 
 [Demo app click here](https://demo-daniel-ui.vercel.app/gettingstarted)
 
