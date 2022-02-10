@@ -18,8 +18,6 @@ For Yarn users:
 
 [Demo app click here](https://demo-daniel-ui.vercel.app/gettingstarted)
 
-[Github Repository](https://github.com/danielbrugio/react-daniel-ui.git)
-
 [Demo Repository](https://github.com/danielbrugio/demo-daniel-ui.git)
 
 ## Example
