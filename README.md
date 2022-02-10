@@ -1,13 +1,4 @@
-<p align="center">
-  <a href="">
-    <img src="" alt="" width="200" />
-  </a>
-</p>
-
 <h1 align="center">React component library based on styled components </h1>
-<p align="center">
-  <img alt="NPM version" src="" />
-</p>
 
 ## Install
 
@@ -25,7 +16,7 @@ For Yarn users:
 
 ## Links
 
-[Documentation click here]()
+[Demo app click here](https://demo-daniel-ui.vercel.app/gettingstarted)
 
 [Github Repository](https://github.com/danielbrugio/react-daniel-ui.git)
 
@@ -48,7 +39,7 @@ export default App;
 
 ## Theme Support
 
-We have two default themes "sea" and "mountain" but you can use your custom theme through a javascript object
+There are two default themes, "sea" and "mountain" but you can use your custom theme through a javascript object
 
 ```jsx
 import React from "react";
